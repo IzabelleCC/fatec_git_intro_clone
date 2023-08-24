@@ -1,0 +1,17 @@
+git add calculadora
+git commit -m "ap01(git): multiplicacao implementada"
+git push
+git add .\teste_calculadora.py
+git commit -m "ap01(git): multiplicacao testada"
+git add .\calculadora.py
+git commit -m "ap01(git): divisao implementada"
+git push
+git commit -a -m "ap01(git): divisao testada"
+git push
+git tag
+git log --pretty=oneline
+git tag -a v1.2.0 c76ee4db30
+git log --pretty=oneline
+git tag -a v1.3.0 d80835fc9eb93061
+git log --pretty=oneline 
+git push origin --tags
